@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="9; url=https://sites.google.com/view/3sila-dz/accueil/" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="3sila-favicon.png">
-  <title>3sila DZ</title>
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/3siladz/3siladz.github.io/main/3sila-favicon.png">
+  <title>OrganicaLux DZ</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 
@@ -18,7 +18,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #0f3d2e, #145940, #1a7a55, #0f3d2e);
+      background: linear-gradient(135deg, #2F4F4F, #D4A017, #2F4F4F, #D4A017);
       background-size: 300% 300%;
       animation: gradientMove 10s ease infinite;
       font-family: 'Cairo', sans-serif;
@@ -33,8 +33,17 @@
       100% { background-position: 0% 50%; }
     }
 
+    .logo {
+      width: 200px;
+      max-width: 80%;
+      margin-bottom: 25px;
+      border-radius: 20px;
+      animation: fadeInDown 1.5s ease forwards;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+    }
+
     .container {
-      background: rgba(0, 0, 0, 0.32);
+      background: rgba(0, 0, 0, 0.35);
       padding: 50px 35px;
       border-radius: 25px;
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
@@ -50,33 +59,30 @@
       font-size: 36px;
       margin-bottom: 25px;
       font-weight: 700;
-      color: #ffdd7a;
-      text-shadow: 0 0 8px rgba(255, 220, 120, 0.5);
     }
 
     p {
       font-size: 22px;
       margin-bottom: 35px;
       line-height: 1.9;
-      color: #fff8e6;
     }
 
     a.btn {
       display: inline-block;
       padding: 18px 55px;
-      background: linear-gradient(90deg, #d4a017, #f2c94c, #d4a017);
-      color: #2c2c2c;
+      background: linear-gradient(90deg, #D4A017, #2F4F4F);
+      color: #fff;
       text-decoration: none;
       border-radius: 12px;
       font-weight: bold;
       font-size: 22px;
       transition: all 0.3s ease;
-      box-shadow: 0 5px 20px rgba(242, 201, 76, 0.5);
+      box-shadow: 0 5px 20px rgba(212, 160, 23, 0.6);
     }
 
     a.btn:hover {
       transform: scale(1.07);
-      box-shadow: 0 8px 30px rgba(212, 160, 23, 0.7);
+      box-shadow: 0 8px 30px rgba(47, 79, 79, 0.7);
     }
 
     @keyframes fadeInUp {
@@ -90,6 +96,7 @@
     }
 
     @media (max-width: 480px) {
+      .logo { width: 220px; margin-bottom: 20px; }
       h1 { font-size: 30px; }
       p { font-size: 20px; line-height: 2; }
       a.btn { font-size: 20px; padding: 16px 45px; }
@@ -100,11 +107,10 @@
 <body>
 
   <div class="container">
-    <h1>مرحبا بك في عسيلة ديزاد</h1>
-    <p>منتجات طبيعية فاخرة... بنكهة العسل الأصيل.<br>
-    عسل طبيعي، خلطات غذائية وصحة من قلب الطبيعة.</p>
-    <a class="btn" href="https://sites.google.com/view/3sila-dz/accueil/">انتقل الآن</a>
+    <h1>مرحباً بك في OrganicaLux DZ</h1>
+    <p>أسلوب حياة صحي وفاخر.<br>
+       عسل طبيعي – خلطات صحية والمزيد...</p>
+    <a class="btn" href="https://sites.google.com/view/afnantlm/">انتقل الآن</a>
   </div>
-
 </body>
 </html>
